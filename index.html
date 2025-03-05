@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./src/carousel/owl.carousel.css">
     <link rel="stylesheet" href="./src/carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./src/carousel/owl.theme.default.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
 </head>
 <body>
     <div class="wrapper">
@@ -31,15 +31,16 @@
                         </ul>
 
                         <div class="header-nav-menu__icon">
-                            <ul>
-                                <li><img src="./src/image/Search.svg" alt=""></li>
-                                <li><img src="./src/image/User.svg" alt=""></li>
-                                <li class="header-nav-menu__icon--number">
+                            <ul class="header-nav-menu-right">
+                                <li class="header-nav-menu-right"><img src="./src/image/Search.svg" alt=""></li>
+                                <li class="header-nav-menu-right"><img src="./src/image/User.svg" alt=""></li>
+                                <li class="header-nav-menu-right header-nav-menu-icon header-nav-menu-icon--quantity">
                                     <img src="./src/image/Cart.svg" alt="">
                                     <span>22</span>
                                 </li>
                             </ul>
                         </div>
+                        <div class="header-nav-menu__bar"><img src="./src/image/menu-bar.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -57,7 +58,7 @@
                     <h5>Best Sellers</h5>
                 </div>
                 <div class="row">
-                    <div class="col" style="--col-lg: 3; --col-md: 4; --col-xs: 6">
+                    <div class="col" style="--col-lg: 3; --col-md: 6; --col-xs: 6; --col-sm: 6">
                         <div class="product-card">
                             <div class="product-card__img">
                                 <a href=""><img src="./src/image/product-1.png" alt=""></a>
@@ -66,31 +67,15 @@
                                 <h6>Hills</h6>
                                 <p class="product-card-description__price">$76</p>
                                 <ul class="product-card-description__option">
-                                    <li class="active">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#C9BFAE" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#A393B5" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                          </svg>
-                                    </li>
+                                    <li class="product-card-description-item active"></li>
+                                    <li class="product-card-description-item"></li>
+                                    <li class="product-card-description-item"></li>
+                                    <li class="product-card-description-item"></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col" style="--col-lg: 3; --col-md: 4; --col-xs: 6">
+                    <div class="col" style="--col-lg: 3; --col-md: 6; --col-xs: 6; --col-sm: 6">
                         <div class="product-card">
                             <div class="product-card__img">
                                 <a href=""><img src="./src/image/product-2.png" alt=""></a>
@@ -99,31 +84,15 @@
                                 <h6>Hills</h6>
                                 <p class="product-card-description__price">$76</p>
                                 <ul class="product-card-description__option">
-                                    <li class="active">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#C9BFAE" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#A393B5" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                          </svg>
-                                    </li>
+                                    <li class="product-card-description-item active"></li>
+                                    <li class="product-card-description-item"></li>
+                                    <li class="product-card-description-item"></li>
+                                    <li class="product-card-description-item"></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col" style="--col-lg: 3; --col-md: 4; --col-xs: 6">
+                    <div class="col" style="--col-lg: 3; --col-md: 6; --col-xs: 6; --col-sm: 6">
                         <div class="product-card">
                             <div class="product-card__img">
                                 <a href=""><img src="./src/image/product-3.png" alt=""></a>
@@ -132,31 +101,15 @@
                                 <h6>Hills</h6>
                                 <p class="product-card-description__price">$76</p>
                                 <ul class="product-card-description__option">
-                                    <li class="active">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#C9BFAE" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#A393B5" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                          </svg>
-                                    </li>
+                                    <li class="product-card-description-item active"></li>
+                                    <li class="product-card-description-item"></li>
+                                    <li class="product-card-description-item"></li>
+                                    <li class="product-card-description-item"></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col" style="--col-lg: 3; --col-md: 4; --col-xs: 6">
+                    <div class="col" style="--col-lg: 3; --col-md: 6; --col-xs: 6; --col-sm: 6">
                         <div class="product-card">
                             <div class="product-card__img">
                                 <a href=""><img src="./src/image/product-4.png" alt=""></a>
@@ -165,26 +118,10 @@
                                 <h6>Hills</h6>
                                 <p class="product-card-description__price">$76</p>
                                 <ul class="product-card-description__option">
-                                    <li class="active">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#C9BFAE" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#A393B5" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                          </svg>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                          </svg>
-                                    </li>
+                                    <li class="product-card-description-item active"></li>
+                                    <li class="product-card-description-item"></li>
+                                    <li class="product-card-description-item"></li>
+                                    <li class="product-card-description-item"></li>
                                 </ul>
                             </div>
                         </div>
@@ -204,72 +141,43 @@
                 <div class="st-cases__title">
                     <h4>Extreme Cases MagSafe Compatible</h4>
                 </div>
-                <!-- <div class="slide-cases owl-carousel owl-theme">
-                    <div class="slide-cases-item">
-                        <strong class="slide-cases-item__number">01</strong>
-                        <div class="slide-cases-item__img">
-                            <img src="./src/image/case-1.png" alt="">
-                            <div class="slide-cases-item__title">
-                                <p>Essentials by CASETiFY™ The Beauty of Simplicity</p>
+                
+                <div class="main-cases">
+                    <div class="row">
+                        <div class="col" style="--col-sm: 6; --col-md: 6; --col-lg: 4">
+                            <div class="cases-item__img">
+                                <img src="./src/image/case-1.png" alt="">
+                                <div class="cases-item__title">
+                                    <strong class="cases-item__number">01</strong>
+                                    <div class="cases-item__des cases-item__des--first">Essentials by CASETiFY™ The Beauty of Simplicity</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="--col-sm: 6; --col-md: 6; --col-lg: 4">
+                            <div class="cases-item__img">
+                                <img src="./src/image/case-2.png" alt="">
+                                <div class="cases-item__title">
+                                    <strong class="cases-item__number cases-item__number--center">02</strong>
+                                    <div class="cases-item__des cases-item__des--center">Defy Gravity With The New Bounce Case</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col" style="--col-sm: 6; --col-md: 6; --col-lg: 4">
+                            <div class="cases-item__img">
+                                <img src="./src/image/case-3.png" alt="">
+                                <div class="cases-item__title">
+                                    <strong class="cases-item__number">03</strong>
+                                    <div class="cases-item__des">Spice up your mirror selfies with a little Y2K</d>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="slide-cases-item">
-                        <strong class="slide-cases-item__number">02</strong>
-                        <div class="slide-cases-item__img">
-                            <img src="./src/image/case-2.png" alt="">
-                            <div class="slide-cases-item__title">
-                                <p>Defy Gravity With The New Bounce Case</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-cases-item">
-                        <strong class="slide-cases-item__number">03</strong>
-                        <div class="slide-cases-item__img">
-                            <img src="./src/image/case-3.png" alt="">
-                            <div class="slide-cases-item__title">
-                                <p>Spice up your mirror selfies with a little Y2K </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-                <div class="slide-cases">
-                    <div class="slide-cases-item">
-                        <strong class="slide-cases-item__number">01</strong>
-                        <div class="slide-cases-item__img">
-                            <img src="./src/image/case-1.png" alt="">
-                            <div class="slide-cases-item__title">
-                                <p>Essentials by CASETiFY™</p>
-                                <p>The Beauty of Simplicity</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-cases-item">
-                        <strong class="slide-cases-item__number">02</strong>
-                        <div class="slide-cases-item__img">
-                            <img src="./src/image/case-2.png" alt="">
-                            <div class="slide-cases-item__title">
-                                <p>Defy Gravity With The</p>
-                                <p>New Bounce Case</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-cases-item">
-                        <strong class="slide-cases-item__number">03</strong>
-                        <div class="slide-cases-item__img">
-                            <img src="./src/image/case-3.png" alt="">
-                            <div class="slide-cases-item__title">
-                                <p>Spice up your mirror</p>
-                                <p>selfies with a little Y2K</p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
         <section class="st-image">
-            <img src="./src/image/bg-selfies.png" alt="">
             <div class="st-image-content">
                 <div class="container">
                     <div class="st-image-content__des">
@@ -277,20 +185,22 @@
                     </div>
                 </div>
             </div>
+            <img src="./src/image/bg-selfies.png" alt="">
             <div class="st-image__card">
                 <div class="container">
-                    <div class="card">
-                        <div class="st-image__card__main">
+                    <div class="st-image-bottom">
+                        <div class="st-image-bottom__main">
                             <img src="./src/image/img-small.png" alt="">
                         </div>
-                        <div class="card-info">
+                        <div class="st-image-bottom__info">
                             <h4>Limone Case</h4>
-                            <span>Yes, we ship all over the world. </span>
-                            <span>Shipping costs will apply</span>
-                            <div class="card-info__bottom">
+                            <div class="st-image-bottom-des">
+                                Yes, we ship all over the world. Shipping costs will apply
+                            </div>
+                            <div class="st-image-bottom-info">
                                 <p>$20.00 <strong>$58.00</strong></p>
-                                <div class="card-info__button">
-                                    <button type="button"><img src="./src/image/Plus.png" alt=""></button>
+                                <div class="st-image-bottom-info__button">
+                                    <button type="button button--active" class=""><img src="./src/image/Plus.png" alt=""></button>
                                 </div>
                             </div>
                         </div>
@@ -302,19 +212,18 @@
         <section class="st-compatible">
             <div class="container">
                 <div class="grid-item">
-                    <div class="gird-item__list">
+                    <div class="grid-item__list">
                         <div class="st-compatible__img">
-                            <div>
-                                <h5>Extreme Case</h5>
-                                <h5>Compatible</h5>
+                            <div class="st-compatible-title">
+                                <h5>Extreme Case Compatible</h5>
                             </div>
                             
                             <img src="./src/image/img-large.png" alt="">
                         </div>
                     </div>
-                    <div class="gird-item__list">
+                    <div class="grid-item__list">
                         <div class="row">
-                            <div class="col" style="--col-xs: 6; --col-md: 6; --col-lg: 6">
+                            <div class="col" style="--col-lg: 6; --col-md: 6; --col-xs: 6; --col-sm: 6">
                                 <div class="product-card">
                                     <div class="product-card__img">
                                         <a href=""><img src="./src/image/product-1.png" alt=""></a>
@@ -323,31 +232,15 @@
                                         <h6>Hills</h6>
                                         <p class="product-card-description__price">$76</p>
                                         <ul class="product-card-description__option">
-                                            <li class="active">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#C9BFAE" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#A393B5" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                                  </svg>
-                                            </li>
+                                            <li class="product-card-description-item active"></li>
+                                            <li class="product-card-description-item"></li>
+                                            <li class="product-card-description-item"></li>
+                                            <li class="product-card-description-item"></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" style="--col-xs: 6; --col-md: 6; --col-lg: 6">
+                            <div class="col" style="--col-lg: 6; --col-md: 6; --col-xs: 6; --col-sm: 6">
                                 <div class="product-card">
                                     <div class="product-card__img">
                                         <a href=""><img src="./src/image/product-1.png" alt=""></a>
@@ -356,31 +249,15 @@
                                         <h6>Hills</h6>
                                         <p class="product-card-description__price">$76</p>
                                         <ul class="product-card-description__option">
-                                            <li class="active">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#C9BFAE" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#A393B5" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                                  </svg>
-                                            </li>
+                                            <li class="product-card-description-item active"></li>
+                                            <li class="product-card-description-item"></li>
+                                            <li class="product-card-description-item"></li>
+                                            <li class="product-card-description-item"></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" style="--col-xs: 6; --col-md: 6; --col-lg: 6">
+                            <div class="col" style="--col-lg: 6; --col-md: 6; --col-xs: 6; --col-sm: 6">
                                 <div class="product-card">
                                     <div class="product-card__img">
                                         <a href=""><img src="./src/image/product-1.png" alt=""></a>
@@ -389,31 +266,15 @@
                                         <h6>Hills</h6>
                                         <p class="product-card-description__price">$76</p>
                                         <ul class="product-card-description__option">
-                                            <li class="active">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#C9BFAE" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#A393B5" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                                  </svg>
-                                            </li>
+                                            <li class="product-card-description-item active"></li>
+                                            <li class="product-card-description-item"></li>
+                                            <li class="product-card-description-item"></li>
+                                            <li class="product-card-description-item"></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" style="--col-xs: 6; --col-md: 6; --col-lg: 6">
+                            <div class="col" style="--col-lg: 6; --col-md: 6; --col-xs: 6; --col-sm: 6">
                                 <div class="product-card">
                                     <div class="product-card__img">
                                         <a href=""><img src="./src/image/product-1.png" alt=""></a>
@@ -422,26 +283,10 @@
                                         <h6>Hills</h6>
                                         <p class="product-card-description__price">$76</p>
                                         <ul class="product-card-description__option">
-                                            <li class="active">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#C9BFAE" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#A393B5" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                                  </svg>
-                                            </li>
-                                            <li>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                                    <circle cx="8.5" cy="8" r="7.5" fill="#EC978C" stroke="white"/>
-                                                  </svg>
-                                            </li>
+                                            <li class="product-card-description-item active"></li>
+                                            <li class="product-card-description-item"></li>
+                                            <li class="product-card-description-item"></li>
+                                            <li class="product-card-description-item"></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -455,19 +300,11 @@
         <section class="review">
             <div class="container">
                 <div class="review__title">
-                    <h5>Customers</h5>
-                    <h5>say about us</h5>
+                    <h5>Customers say about us</h5>
                 </div>
-                <div class="review-slide ">
+                <div class="review__content">
                     <div class="review-slide__item">
                         <div class="review-content">
-                            <div class="review-content__des">
-                                <p>
-                                    “This means that once you use different template designs for actual testimonial website widgets, you can make images
-                                    from them and post them as image.”
-                                </p>
-                                <span>Johny Angelo</span>
-                            </div>
                             <div class="review-content__img review-content__img--1">
                                 <img src="./src/image/customer-5.png" alt="">
                             </div>
@@ -479,6 +316,13 @@
                             </div>
                             <div class="review-content__img review-content__img--4">
                                 <img src="./src/image/customer-4.png" alt="">
+                                <div class="review-content-des">
+                                    <p>
+                                        “This means that once you use different template designs for actual testimonial website widgets, you can make images
+                                        from them and post them as image.”
+                                    </p>
+                                    <span>Johny Angelo</span>
+                                </div>
                             </div>
                             <div class="review-content__img review-content__img--5">
                                 <img src="./src/image/customer-7.png" alt="">
@@ -491,39 +335,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="review-slide__item">
-                        <div class="review-content">
-                            <div class="review-content__des">
-                                <p>
-                                    “This means that once you use different template designs for actual testimonial website widgets, you can make images
-                                    from them and post them as image.”
-                                </p>
-                                <span>Johny Angelo</span>
-                            </div>
-                            <div class="review-content__img review-content__img--1">
-                                <img src="./src/image/customer-5.png" alt="">
-                            </div>
-                            <div class="review-content__img review-content__img--2">
-                                <img src="./src/image/customer-2.png" alt="">
-                            </div>
-                            <div class="review-content__img review-content__img--3">
-                                <img src="./src/image/customer-3.png" alt="">
-                            </div>
-                            <div class="review-content__img review-content__img--4">
-                                <img src="./src/image/customer-4.png" alt="">
-                            </div>
-                            <div class="review-content__img review-content__img--5">
-                                <img src="./src/image/customer-7.png" alt="">
-                            </div>
-                            <div class="review-content__img review-content__img--6">
-                                <img src="./src/image/customer-1.png" alt="">
-                            </div>
-                            <div class="review-content__img review-content__img--7">
-                                <img src="./src/image/customer-6.png" alt="">
-                            </div>
-                        </div>
-                    </div> -->
-                    
                 </div>
             </div>
         </section>
@@ -531,7 +342,7 @@
         <section class="collection">
             <div class="container">
                 <div class="row">
-                    <div class="col" style="--col-xs: 12; --col-md: 6; --col-lg: 4">
+                    <div class="col" style="--col-lg: 4; --col-md: 6; --col-xs: 12; --col-sm: 6">
                         <div class="collection-card">
                             <div class="collection-card__title">
                                 <h6>Super Protect</h6>
@@ -542,7 +353,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col" style="--col-xs: 12; --col-md: 6; --col-lg: 4">
+                    <div class="col" style="--col-lg: 4; --col-md: 6; --col-xs: 12; --col-sm: 6">
                         <div class="collection-card">
                             <div class="collection-card__title">
                                 <h6>Super Protect</h6>
@@ -552,7 +363,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col" style="--col-xs: 12; --col-md: 6; --col-lg: 4">
+                    <div class="col" style="--col-lg: 4; --col-md: 6; --col-xs: 12; --col-sm: 6">
                         <div class="collection-card">
                             <div class="collection-card__title">
                                 <h6>Super Protect</h6>
@@ -616,18 +427,42 @@
                 </form>
             </div>
 
-            <!-- <div class="footer-bottom">
-                <div class="footer-main">
-                    
+            <div class="footer-bottom">
+                <div class="">
+                    <div class="bottom-content">
+                        <div class="footer-content__link">
+                            <ul>
+                                <li><a href="">Term</a></li>
+                                <li><a href="">Policy Privicy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-payment">
+                            <div class="footer-payment__img">
+                                <img src="./src/image/shop pay.png" alt="">
+                                <img src="./src/image/visa.png" alt="">
+                                <img src="./src/image/visa.png" alt="">
+                                <img src="./src/image/apple pay.png" alt="">
+                                <img src="./src/image/google pay.png" alt="">
+                                <img src="./src/image/amex.png" alt="">
+                            </div>
+                            <div class="footer-payment__convert">
+                                <p>United States (USD$) <img src="./src/image/Frame.png" alt=""></p>
+                                <div class="footer-payment-main footer-payment-main--list">
+                                    <span>VietNamese (VND)</span>
+                                    <span>VietNamese (VND)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div> -->
+            </div>
         </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
             integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./src/carousel/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <script src="./src/js/main.js"></script>
 </body>
 </html>
