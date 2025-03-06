@@ -1103,7 +1103,9 @@ footer {
     }
 
     /*product*/
-    
+    .services-item {
+        padding: 30px;
+    }
     /*end product*/
 
     .footer-newsletter__form input {
