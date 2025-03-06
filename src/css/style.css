@@ -489,14 +489,16 @@ img {
 .st-compatible__img {
     position: relative;
     height: 100%;
-    padding-bottom: var(--grid-col-gap-vertical);
+    margin-bottom: var(--grid-col-gap-vertical);
 }
+
 
 .st-compatible-title {
     max-width: 270px;
     position: absolute;
     top: 33px;
     left: 42px;
+    z-index: 3;
 }
 
 .st-compatible-title h5 {
@@ -518,7 +520,7 @@ img {
 
 .review__content {
     position: relative;
-    padding-bottom: 438px;
+    padding-bottom: 427px;
 } 
 
 .review__title h5 {
@@ -545,12 +547,14 @@ img {
     background-color: #F6F6F6;
     border-radius: 20px;
     opacity: 0;
+    visibility: hidden;
     transition: all .5s;
 }
 
 .review-content__img:hover .review-content-des {
-    opacity: 1;
     left: 100%;
+    opacity: 1;
+    visibility: visible;
     transition: all .5s;
 }
 
@@ -890,7 +894,7 @@ footer {
 
 @media only screen and (max-width: 1440px){
     .banner__title {
-        font-size: 155px;
+        font-size: 140px;
     }
 
     .review-content__img--7 {
@@ -1123,6 +1127,7 @@ footer {
         top: 42px;
         bottom: unset;
     }
+    
 
     .st-image-content__des h3 {
         max-width: 330px;
@@ -1177,6 +1182,17 @@ footer {
         padding-bottom: 20px;
     }
 
+    .st-compatible__img::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0000004f;
+        border-radius: 20px;
+    }
+
     .st-compatible-title h5 {
         font-size: 37px;
     }
@@ -1206,7 +1222,7 @@ footer {
     }
 
     .review-content__img--2 {
-        top: 31px;
+        top: 25px;
         right: 28px;
     }
 
