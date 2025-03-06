@@ -60,6 +60,11 @@ body {
     .container {
         max-width: 1592px;
     }
+
+    .services__item {
+        padding: 43px 123px 49px 122px;
+        text-align: center;
+    }
 }
 
 a {
@@ -721,7 +726,7 @@ img {
     opacity: .8;
 }
 
-.category-slide-item {
+.category-slide__list {
     display: flex;
     align-items: center;
     gap: 18px;
@@ -730,11 +735,11 @@ img {
     background: #F7F7F8;
 }
 
-.category-slide-item--selected {
+.category-slide__list--selected {
     border: 1px solid #848484;
 }
 
-.category-slide-item__name span {
+.category-slide__name span {
     font-size: 15px;
     color: #1E232B;
     font-style: normal;
@@ -743,7 +748,7 @@ img {
     display: inline-block;
 }
 
-.category-slide-item__img img {
+.category-slide__img img {
     min-height: 78px;
 }
 
@@ -768,7 +773,7 @@ img {
     background-color: #f6f6f6 !important;
 }
 
-.product-main-heading {
+.product-main__heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -776,25 +781,25 @@ img {
     margin-bottom: 24px;
 }
 
-.product-main-heading__filter {
+.product-main__filter {
     display: flex;
     align-items: center;
     gap: 2px;
 }
 
-.product-main-heading__sort {
+.product-main__sort {
     display: flex;
     align-items: flex-end;
     gap: 8px;
 }
 
-.product-main-heading-sort-option > p {
+.product-main__sort-selected > p {
     display: flex;
     align-items: center;
 }
 
-.product-main-heading-sort-option > p,
-.product-main-heading__sort > span {
+.product-main__sort-selected > p,
+.product-main__sort > span {
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -802,12 +807,12 @@ img {
     line-height: 21px;
 }
 
-.product-main-heading__sort > span {
+.product-main__sort > span {
     text-transform: uppercase;
     opacity: .5;
 }
 
-.product-main-pagination {
+.product-main__pagination {
     max-width: 392px;
     display: flex;
     justify-content: center;
@@ -817,12 +822,12 @@ img {
     padding: 57px 0 32px 0;
 }
 
-.product-main-pagination__list {
+.product-main__pagination-list {
     display: flex;
     gap: 4px;
 }
 
-.product-main-pagination__list li {
+.product-main__pagination-list li {
     padding: 9.5px 12px;
     font-size: 15px;
     font-style: normal;
@@ -833,16 +838,18 @@ img {
     cursor: pointer;
 }
 
-.product-main-pagination__button {
+.product-main__pagination-button {
     height: 38px;
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    outline: none;
     cursor: pointer;
 }
 
-.product-main-pagination__button--prev {
+.product-main__pagination-button--prev {
     opacity: .5;
 }
 
@@ -850,24 +857,24 @@ img {
     margin: 24px 0 39px 0;
 }
 
-.services-item {
-    padding: 43px 123px 49px 122px;
+.services__item {
+    padding: 30px;
     text-align: center;
 }
 
-.services_item__des h4,
-.services_item__des p {
+.services__item-des h4,
+.services__item-des p {
     font-size: 16px;
     color: #000;
     font-style: normal;
     font-weight: 500;
     letter-spacing: -0.16px;
 }
-.services_item__des h4 {
+.services__item-des h4 {
     padding: 11px 0 6px 0;
 }
 
-.services_item__des p {
+.services__item-des p {
     opacity: .5;
 }
 /*end product*/
@@ -979,6 +986,9 @@ footer {
     height: 36px;
     border-radius: 50%;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -1103,7 +1113,7 @@ footer {
     }
 
     /*product*/
-    .services-item {
+    .services__item {
         padding: 30px;
     }
     /*end product*/
@@ -1292,11 +1302,11 @@ footer {
         letter-spacing: -3px;
     }
 
-    .category-slide-item {
+    .category-slide__list {
         flex-direction: column;
     }
 
-    .category-slide-item__img img {
+    .category-slide__img img {
         min-width: 54px;
     }
 
@@ -1308,7 +1318,7 @@ footer {
         padding-top: 31px;
     }
 
-    .product-main-heading {
+    .product-main__heading {
         flex-direction: column;
         align-items: flex-start;
         gap: 15px;
@@ -1316,7 +1326,7 @@ footer {
         padding-bottom: 20px;
     }
 
-    .services-item {
+    .services__item {
         padding: 30px;
     }
     /*end product*/
